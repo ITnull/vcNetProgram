@@ -1,0 +1,11 @@
+HKCR
+{
+	NoRemove AppID
+	{
+		{41028426-38F5-4F6C-870F-7BB0A8E3AA1E} = s 'HTML1'
+		'HTML1.EXE'
+		{
+			val AppID = s {41028426-38F5-4F6C-870F-7BB0A8E3AA1E}
+		}
+	}
+}

@@ -1,0 +1,19 @@
+
+	// HTML1.idl : IDL source for HTML1.exe
+//
+// This file will be processed by the MIDL tool to
+// produce the type library (HTML1.tlb) and marshalling code.
+import "oaidl.idl";
+import "ocidl.idl";
+[
+	uuid(D3CB3CB9-A777-4C2A-9F8D-13041033B6F5),
+	version(1.0),
+	helpstring("HTML1 1.0 Type Library")
+]
+library HTML1Lib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+};
+
+	

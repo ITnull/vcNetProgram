@@ -1,0 +1,42 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: HTML1 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF0.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/HTML1.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\Administrator\桌面\第五章 HTML1\第五章 HTML1\HTML1View.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF0.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF1.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/HTML1.pdb" /debug /machine:I386 /out:"Debug/HTML1.exe" /pdbtype:sept 
+".\Debug\HTML1.obj"
+".\Debug\HTML1Doc.obj"
+".\Debug\HTML1View.obj"
+".\Debug\MainFrm.obj"
+".\Debug\StdAfx.obj"
+".\Debug\ToolDlg.obj"
+".\Debug\webbrowser2.obj"
+".\Debug\HTML1.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF1.tmp"
+<h3>Output Window</h3>
+Compiling...
+HTML1View.cpp
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/HTML1.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\HTML1.sbr" ".\Debug\HTML1Doc.sbr" ".\Debug\HTML1View.sbr" ".\Debug\MainFrm.sbr" ".\Debug\ToolDlg.sbr" ".\Debug\webbrowser2.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+HTML1.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
