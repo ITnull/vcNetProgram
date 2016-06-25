@@ -1,0 +1,41 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: P2P网络播放器 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP92.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fp"Release/P2P网络播放器.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\粱伟(勿删)\12\书中实例\书中实例（最后修改的）\十章 P2P网络播放器\P2P网络播放器\P2P网络播放器View.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP92.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP93.tmp" with contents
+[
+winmm.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/P2P网络播放器.pdb" /machine:I386 /out:"Release/P2P网络播放器.exe" 
+".\Release\MainFrm.obj"
+".\Release\P2P网络播放器.obj"
+".\Release\P2P网络播放器Doc.obj"
+".\Release\P2P网络播放器View.obj"
+".\Release\StdAfx.obj"
+".\Release\P2P网络播放器.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP93.tmp"
+<h3>Output Window</h3>
+Compiling...
+P2P网络播放器View.cpp
+E:\粱伟(勿删)\12\书中实例\书中实例（最后修改的）\十章 P2P网络播放器\P2P网络播放器\P2P网络播放器View.cpp(107) : warning C4244: 'argument' : conversion from 'unsigned long' to 'unsigned short', possible loss of data
+Linking...
+Creating command line "bscmake.exe /nologo /o"Release/P2P网络播放器.bsc"  ".\Release\StdAfx.sbr" ".\Release\MainFrm.sbr" ".\Release\P2P网络播放器.sbr" ".\Release\P2P网络播放器Doc.sbr" ".\Release\P2P网络播放器View.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+P2P网络播放器.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
